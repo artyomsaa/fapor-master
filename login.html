@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://kit.fontawesome.com/e8998d39d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="conteiner">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"> Contact </a>
+                </li>
+                <li>
+                    <a href="#"> Portfolio </a>
+                </li>
+                <li>
+                    <a href="#"> Service </a>
+                </li>
+                <li>
+                    <a href="#"> About </a>
+                </li>
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="login_bg">
+    <div class="conteiner">
+        <div class="left_side">
+            <h4>EXISTING USERS</h4>
+            <h4>LOGIN</h4>
+            <form action="" method="post">
+                <div class="form_group">
+                    <label for="username"> username</label>
+                    <input id="username" type="text" />
+                </div>
+
+                <div class="form_group">
+                <label for="password">password</label>
+                <input id="password" type="text"/>
+            </div>
+                <button type="submit">login</button>
+                <a href="#">forgot password?</a>
+            </form>
+        </div>
+        <div class="right_side">
+            <h4>NEW USERS, WELCOME!</h4>
+            <div id="tabs">
+                <ul>
+                    <li><a href="#tabs-1">sign up</a></li>
+                    <li><a href="#tabs-2">billing info</a></li>
+                    <li><a href="#tabs-3">payment</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <form action="" method="post">
+                        <div class="right_group">
+                            <label for="user"> username</label>
+                            <input id="user" type="text" />
+                        </div>
+
+                        <div class="right_group">
+                            <label for="mail">email address</label>
+                            <input id="mail" type="email"/>
+                        </div>
+                        <div class="right_group">
+                            <label for="right_password">password</label>
+                            <input id="right_password" type="password"/>
+                        </div>
+                        <div class="right_group">
+                            <label for="re-password">re-enter password</label>
+                            <input id="re-password" type="password"/>
+                        </div>
+                        <a href="#">next step</a>
+                    </form>
+                </div>
+                <div id="tabs-2">
+
+                </div>
+                <div id="tabs-3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div>
+        <h3>
+            about fapor
+        </h3>
+        <p>
+            We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful
+        </p>
+    </div>
+    <div>
+        <h3>
+            contact info
+        </h3>
+        <p>
+            PO Box 17122 Nollins Street <br>
+            5034 Los Angelos <br><br>
+            Phone: 1800555.0658<br>
+            Email: support@fapor.com<br>
+            Web: fapor.com<br>
+        </p>
+    </div>
+    <form>
+        <h3>SUBSCRIBLE TO OUR NEWSLETTER</h3>
+        <input type="email" name="email" placeholder="  Enter your email address" /><br>
+        <button>SUBSCRIBLE NOW</button>
+    </form>
+</footer>
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $( function() {
+        $( "#tabs" ).tabs();
+    } );
+</script>
+</body>
+</html>
