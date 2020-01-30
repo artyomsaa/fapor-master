@@ -223,44 +223,81 @@ article{
     color: #000000;
     text-align: center;
 }
-footer {
-    max-width: 1093px;
-    margin: auto;
-    background: #2b2f35;
-    padding-left: 380px;
-    padding-right: 300px;
-    padding-top: 50px;
-}
-footer div {
-    width: 320px;
-    float: left;
-}
-footer h3 {
+
+h4{
+    color:#645e48;
     text-transform: uppercase;
-    font-size: 14px;
-    color: #a4935c;
-    padding-bottom: 12px;
+    font-size: 11px;
+    padding-top: 64px;
+    padding-bottom: 23px;
 }
-footer div p {
-    color: #5e6269;
-    font-size: 14px;
-    width: 270px;
+.beforefotter{
+    background-color:#2b2f35;
 }
-footer form button {
+.aboutFapor {
+    float:left;
+    display: inline-block;
+    max-width: 230px;
+    margin-right: 234px;
+
+}
+
+.form{
+    float:right;
+    display: inline-block;
+    max-width: 237px;
+}
+.contactus {
+    display: inline-block;
+    float: inherit;
+    max-width: 142px;
+}
+
+.beforefotter:after{
+    display:block;
+    content: "";
+    clear: both;
+}
+
+
+input{display: block;
+    background-color: transparent;
+    border: #61656b 1px solid;
+    color: #61656b;
+    font-size: 11px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    line-height: 29px;
+}
+
+button{
+    display: block;
+    background-color: #b5a263;
     color: white;
+    font-size: 11px;
     text-transform: uppercase;
-    border: 0;
-    width: 236px;
-    background: #a4935c;
-    margin-top: 10px;
-    height: 27px;
+    text-align: center;
+    width: 100%;
+    line-height: 29px;
 }
-footer form input {
-    background: #2b2f35;
-    border: 1px solid #5e6269;
-    width: 236px;
-    height: 27px;
+.beforefotter p{
+    color: #6e7279;
+    font-size:11px;
 }
+.blacklinefooter{
+    background-color: #24282f;
+}
+.blacklinefooter p{
+    color: #6e7279;
+    font-size: 9px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+
 
 
 /*login page*/
@@ -384,6 +421,7 @@ footer form input {
 .ui-tabs .ui-tabs-nav{
     padding: 0;
     margin: 0;
+
 }
 .ui-widget-header {
     border: none;
@@ -426,6 +464,7 @@ footer form input {
     margin-bottom: 11px;
     transform: rotate(45deg);
     position: absolute;
-    right: 46px;
+    right: 50%;
+    margin-left: 4.5px;
     top: -1px;
 }

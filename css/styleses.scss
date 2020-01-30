@@ -1,0 +1,27 @@
+@import "owl.theme.default.min.css";
+@import "owl.carousel.min.css";
+@import "style.css";
+
+
+
+$base-color: black;
+$base-font: 14px;
+$base-font-family:'Font Awesome 5 Free';
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+
+
+
