@@ -431,6 +431,8 @@ button{
 .ui-tabs .ui-tabs-nav li.ui-tabs-active{
         background-color: #e7cfa6;
         border-radius: 0;
+        min-width: 135px;
+
     }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
         background-color:#ffffff;
@@ -443,6 +445,7 @@ button{
         background-color: #FFFFFF;
         border: none;
         text-transform: uppercase;
+
     }
 
 .ui-state-default:after {
