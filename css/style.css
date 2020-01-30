@@ -352,20 +352,10 @@ button{
     margin-bottom: 36px;
     line-height: 31px;
     width: 100%;
+    background-color: #FFFFFF;
 
 }
-.login_bg .left_side form button{
-    text-transform: uppercase;
-    background-color:#e7cfa6;
-    color: #434343;
-    border: none;
-    padding-left: 55px;
-    padding-right: 55px;
-    display: block;
-    line-height: 37px;
-    border-radius: 40px;
-    float: left;
-}
+
 
 .login_bg .left_side form a{
     float: right;
@@ -378,7 +368,20 @@ button{
 {
     max-width: 450px;
 }
-
+.login_bg .left_side form button{
+    text-transform: uppercase;
+    background-color:#e7cfa6;
+    color: #434343;
+    border: none;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: block;
+    line-height: 37px;
+    border-radius: 40px;
+    float: left;
+    max-width: 190px;
+    box-sizing: border-box;
+}
 
 
 .login_bg .right_side form .right_group input {
@@ -388,6 +391,9 @@ button{
     line-height: 31px;
     width: 100%;
     background-color: #f6f6f6;
+}
+#right_password,#re-password {
+    background-color: #fbf7f1;
 }
 .login_bg .right_side form .right_group label{
     color: #494031;
